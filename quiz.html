@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz page</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <h3><img src="./images/quiz.png" alt=""></h3>
+        </div>
+        <div>
+            <h3 style="color: #00394d; font-size: 1.5rem;">QuizGo</h3>
+        </div>
+        <div>
+            <h3>
+                <span>00</span>:<span>00</span>:<span>00</span>
+            </h3>
+        </div>
+    </header>
+
+    <main>
+        <section id="question-cont">
+            <h3>Problem Statement</h3>
+            <h2>Question</h2>
+            <div id="actual-question"></div>
+        </section>
+        <section id="option-cont">
+            <h3>Options</h3>
+            <div id="actual-option"></div>
+        </section>
+        <section id="btn-cont">
+            <div id="actual-btn"></div>
+            <div id="legends">
+                <h3><span>00</span>Answered</h3>
+                <h3><span>00</span>Not Answered</h3>
+                <h3><span>00</span>Marked</h3>
+                <h3><span>00</span>Not Visited</h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <button>Previous</button>
+            <button>Revisit & Next</button>
+            <button>Save & Next</button>
+        </div>
+        <div><button>Submit Quiz</button></div>
+    </footer>
+    <script src="./quiz.js"></script>
+</body>
+</html>
