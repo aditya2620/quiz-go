@@ -67,3 +67,20 @@ button:active{
 span{
     color: red;
 }
+
+@media (min-width:300px) and (max-width:600px){
+    form{
+        width: 80%;
+        margin-left: 3rem;
+    }
+    button{
+        margin-left: 6rem;
+    }
+    body{
+     height: 100vh;
+    }
+    h1{
+        margin-left: 2rem;
+    }
+  
+}

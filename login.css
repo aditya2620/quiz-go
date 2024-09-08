@@ -82,3 +82,25 @@ span{
 button:active{
     background-color: azure;
 }
+
+/* @media (max-width:600px){
+    form{
+        width: 60%;
+    }
+    .content{
+        width: 80%;
+        margin-left: 5rem;
+    }
+} */
+@media (min-width:300px) and (max-width:600px){
+    form{
+        width: 95%;
+    }
+    .content{
+        width: 80%;
+        margin-left: 3rem;
+    }
+    h1{
+        left: 24%;
+    }
+}
